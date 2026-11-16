@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "幻光典藏",
+      "description": "在浏览器里拖动、旋转、翻转全息卡牌，目前有几张可以切换。",
+      "play_url": "https://euds63.github.io/holo-card-jingwang/",
+      "source_url": "https://github.com/EuDs63/holo-card-jingwang",
+      "status": "可在线试玩"
+    },
+    {
+      "name": "TACHIKOMA — 思考的形状",
+      "description": "可交互查看思考战队里的 Tachikoma：行走、开轮、开合、巡逻。",
+      "play_url": "https://euds63.github.io/tachikoma-web-viewer/",
+      "source_url": "https://github.com/EuDs63/tachikoma-web-viewer",
+      "status": "可在线试玩"
+    },
+    {
+      "name": "Voxel Genesis",
+      "description": "在浏览器里玩的三维元胞自动机，用 Three.js 搭的，没有后端。",
+      "play_url": "https://euds63.github.io/voxel-genesis/",
+      "source_url": "https://github.com/EuDs63/voxel-genesis",
+      "status": "可在线试玩"
+    },
+    {
+      "name": "网页视频遥控器",
+      "description": "这是发现页，用来找到同一网络里的遥控器服务。完整使用需要在电脑上安装 Edge 或 Chrome 扩展，并让本机服务先运行起来。",
+      "play_url": "https://euds63.github.io/bilibili-local-remote/",
+      "source_url": "https://github.com/EuDs63/bilibili-local-remote",
+      "status": "发现页，需本机安装后使用"
+    }
+  ]
+}
