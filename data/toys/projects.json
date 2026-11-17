@@ -16,7 +16,7 @@
     },
     {
       "name": "Voxel Genesis",
-      "description": "在浏览器里玩的三维元胞自动机，用 Three.js 搭的。",
+      "description": "想试试三维的生命游戏，于是做了这个小实验。",
       "play_url": "https://euds63.github.io/voxel-genesis/",
       "source_url": "https://github.com/EuDs63/voxel-genesis",
       "status": "可在线试玩"
@@ -27,6 +27,13 @@
       "play_url": "https://euds63.github.io/bilibili-local-remote/",
       "source_url": "https://github.com/EuDs63/bilibili-local-remote",
       "status": "发现页，需本机安装后使用"
+    },
+    {
+      "name": "生命游戏",
+      "description": "在浏览器里玩的康威生命游戏。",
+      "play_url": "https://game-of-life-euds63.vercel.app/",
+      "source_url": "https://github.com/EuDs63/game_of_life",
+      "status": "可在线试玩"
     }
   ]
 }
