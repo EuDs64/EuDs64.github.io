@@ -1,0 +1,35 @@
+{{- define "main" }}
+
+<link rel="stylesheet" href="/css/toys.css">
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1>{{ .Title -}}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description | markdownify }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+{{ $toys := getJSON "data/toys/projects.json" }}
+
+<div class="toys-list">
+    {{ range $toys.projects }}
+    <article class="toy-card">
+        <header class="toy-header">
+            <h2 class="toy-name">{{ .name }}</h2>
+            <p class="toy-status">{{ .status }}</p>
+        </header>
+        <p class="toy-desc">{{ .description }}</p>
+        <p class="toy-links">
+            <a href="{{ .play_url }}" target="_blank" rel="noopener">试玩</a>
+            <a href="{{ .source_url }}" target="_blank" rel="noopener">源码</a>
+        </p>
+    </article>
+    {{ end }}
+</div>
+
+{{- end }}

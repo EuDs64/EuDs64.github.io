@@ -77,6 +77,8 @@ params:
               url: posts
             - name: Records
               url: records
+            - name: Toys
+              url: toys
             - name: My Rss Subscription
               url: rss_subscription
 
