@@ -8,15 +8,15 @@
       "status": "可在线试玩"
     },
     {
-      "name": "TACHIKOMA — 思考的形状",
-      "description": "可交互查看思考战队里的 Tachikoma：行走、开轮、开合、巡逻。",
+      "name": "TACHIKOMA",
+      "description": "可交互查看攻壳机动队里的 Tachikoma：行走、开合、巡逻。",
       "play_url": "https://euds63.github.io/tachikoma-web-viewer/",
       "source_url": "https://github.com/EuDs63/tachikoma-web-viewer",
       "status": "可在线试玩"
     },
     {
       "name": "Voxel Genesis",
-      "description": "在浏览器里玩的三维元胞自动机，用 Three.js 搭的，没有后端。",
+      "description": "在浏览器里玩的三维元胞自动机，用 Three.js 搭的。",
       "play_url": "https://euds63.github.io/voxel-genesis/",
       "source_url": "https://github.com/EuDs63/voxel-genesis",
       "status": "可在线试玩"
